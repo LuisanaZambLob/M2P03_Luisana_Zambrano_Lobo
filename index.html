@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="productos para animales, alimentos para mascotas, accesorios para animales, mascotas, tienda de animales">
+
+<!--Cambiar el título a “Mi web completa”-->
+    <title>Mi web completa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+<!--Incluiremos logos para las redes sociales.-->
+<header>
+    <div class="redes-sociales">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+    <div class="logo">
+        <a href="#"><img src="Imagen20.png" alt="Logo" id="logo"></a>
+    </div>
+    <h1>Palacio animal</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#">Higiene y cuidados</a></li>
+            <li><a href="#">Juguetes</a></li>
+            <li><a href="#">Comida</a></li>
+            <li><a href="#">Accesorios</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Incluiremos un “aside” en el lateral derecho pensando en incluir publicidad, un formulario o los últimos comentarios de las redes 
+    sociales.-->
+    <aside class="formulario-aside">
+        <h3>Registro de usuarios</h3>
+        <form action="#" method="post" >
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+       
+        <label for="genero">Género</label>
+        <select name="genero" id="genero">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+        </select><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+
+        <input type="checkbox" id="es_cliente" name="es_cliente">
+        <label for="es_cliente"> ¿Ya eres cliente?</label>
+
+        <label>Declaro haber leído los terminos, condiciones generales y la normativa de protección de datos</label><br>
+        <input type="checkbox" id="condiciones" name="condiciones" required>Acepto
+        
+        <input type="checkbox" id="no_acepta_condiciones" name="no_acepta_condiciones">No acepto 
+        <br>
+        <input type="submit" value="Enviar">
+        </form>
+    </aside>
+<footer>
+</footer>
+</body>
+</html>
